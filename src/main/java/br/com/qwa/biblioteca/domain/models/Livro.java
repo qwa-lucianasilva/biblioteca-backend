@@ -1,4 +1,4 @@
-package biblioteca.src.main.java.br.com.qwa.biblioteca.entity;
+package br.com.qwa.biblioteca.domain.models;
 
 import java.time.LocalDate;
 
