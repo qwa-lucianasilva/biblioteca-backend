@@ -1,5 +1,7 @@
 package br.com.qwa.biblioteca.domain.models;
 
+import br.com.qwa.biblioteca.enums.EstadoDoLivroEnum;
+
 import java.time.LocalDate;
 
 public class Livro {
@@ -10,4 +12,5 @@ public class Livro {
     private LocalDate anoPublicacao;
     private boolean disponivel;
     private LocalDate dataCadastro;
+    private EstadoDoLivroEnum estado;
 }
