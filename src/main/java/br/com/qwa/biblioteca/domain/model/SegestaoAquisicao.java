@@ -1,4 +1,4 @@
-package br.com.qwa.biblioteca.domain.models;
+package br.com.qwa.biblioteca.domain.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

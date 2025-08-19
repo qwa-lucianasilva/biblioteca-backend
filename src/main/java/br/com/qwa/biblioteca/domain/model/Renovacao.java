@@ -1,4 +1,4 @@
-package br.com.qwa.biblioteca.domain.models;
+package br.com.qwa.biblioteca.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,9 +11,11 @@ import java.util.UUID;
 
 @Entity
 @Table
-public class Interesse {
+public class Renovacao {
+
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private LocalDate dataRegistro;
+    private LocalDate dataRenovacao;
+    private LocalDate novaDataPrevista;
 }

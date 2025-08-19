@@ -1,4 +1,4 @@
-package br.com.qwa.biblioteca.domain.models;
+package br.com.qwa.biblioteca.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,13 +11,11 @@ import java.util.UUID;
 
 @Entity
 @Table
-public class AvaliacaoLivro {
+public class Alerta {
+    // tipo alerta    @Id
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String comentario;
-    private int classificacao;
-    private String dificuldade;
-    private boolean desistiu;
-    private LocalDate dataAvaliacao;
+    private boolean ativo;
+    private LocalDate criadoEm;
 }
